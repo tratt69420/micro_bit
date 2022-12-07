@@ -8,8 +8,8 @@ input.onButtonPressed(Button.A, function () {
 })
 input.onButtonPressed(Button.B, function () {
     speed += 1
-    if (speed > 9) {
-        speed = 9
+    if (speed > 50) {
+        speed = 50
     }
     basic.showNumber(speed)
     pins.analogWritePin(AnalogPin.P0, power)
